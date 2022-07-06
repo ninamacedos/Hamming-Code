@@ -1,0 +1,34 @@
+
+Trabalho Final
+
+Descrição:
+
+O trabalho será a implementação de um PROCEDIMENTO computacional que permitirá:
+
+    ler um arquivo binário ORIGINAL que poderá ser de qualquer tipo (imagem, som, texto, etc).
+    criar um arquivo binário CODIFICADO que poderá ser transmitido ou armazenado.
+    recuperar o conteúdo original FONTE a partir do arquivo CODIFICADO.
+    !!utilizar Hamming!!
+
+
+IMPORTANTE: O arquivo CODIFICADO pode ser alterado (corrompido) durante o armazenamento ou transmissão. O objetivo principal do seu trabalho é criar um formato de arquivo capaz de sobreviver a esse corrompimento e recuperar o arquivo original.
+
+O método implementado deverá considerar inserção, remoção de bits e alteração de bits (ruído). Além disso, o método deve ser capaz de:
+
+    Apresentar um limite para quantidade de erros que podem ser detectados, detectar erros e informar que o arquivo CODIFICADO apresenta erros que não podem ser recuperados.
+    Apresentar um limite para correção de erros, corrigir erros e recuperar o arquivo ORIGINAL a partir do CODIFICADO.
+
+
+Durante a avaliação serão consideradas as seguintes alterações no arquivo CODIFICADO:
+
+    inserção de bits (tamanho diferente do esperado)
+    remoção de bits (tamanho diferente do esperado)
+    alteração de informações dentro de uma quantidade esperada e considerando que cada bit do conteúdo possui a mesma chance de ser alterado.
+    alteração de informações dentro de uma quantidade esperada e considerando uma rajada, ou seja, o ruído poderá ocorrer em uma certa parte do arquivo.
+
+
+Os critérios de avaliação são:
+
+    Domínio de fundamentos de informática (operações bit a bit, criatividade, conceitos aplicados).
+    documentação do código.
+
